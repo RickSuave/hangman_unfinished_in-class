@@ -1,0 +1,111 @@
+
+package hangman;
+import java.util.Arrays;
+import java.util.Scanner;
+
+
+public class Hangman {
+
+  
+    public static void main(String[] args) {
+        
+        Scanner keyboard = new Scanner(System.in);
+        
+        
+        //Loop - Exit Program
+        
+        int difficultyLevel = 0;
+        
+        
+        System.out.println("Welcome to Hangman. Please select a difficulty level. Press = to exit");
+        
+        //Create instance of Hangman_methods pass difficulty
+        //Hangman_methods game = new Hangman_methods(5/* The Difficulty*/);
+        //Loop - Game Loop
+        
+        //Print Hangman
+        
+        //Print guessed letters
+        
+        //Print word
+        
+        //Ask next letter
+        
+        //Check Letter in word
+        //if(game.isCharInWord("e"))
+        {
+            
+        }
+        //else
+        {
+            
+        }
+        //if exists add to correct ArrayList if not add to incorrect ArrayList
+        
+        
+        
+      }
+    }
+CLASS TWO----------------------------------------------------------------------------------------   
+
+package hangman;
+import java.util.Random;
+
+public class Hangman_methods {
+    
+    private Random random = new Random();
+    StringBuffer misses = new StringBuffer("");
+    StringBuffer currentWord = new StringBuffer("");
+    
+    //ArrayList for AllWords
+    String[] myWordList = new String[]
+    {
+              "java" , "method" , "variable" , "array" , "random" , "print" , "constructor"
+            , "public" , "private" , "primative" , "boolean" , "programming"
+            , "class" , "superclass" , "inheritance" , "object" , "oriented" 
+            , "compiler" , "type" , "overloaded" , "return" , "reference" 
+            , "diagram" , "IDE" , "class" , "HTML" , "library" , "scanner"
+            , "dot" , "void" , "static" , "declare" , "debug" , "netbeans"
+            , "parameter" , "string"
+    }
+    
+    
+    
+    private void difficutyLevel(){
+        //return difficultyLevel;
+    }
+    
+    private void wordToGuess(){
+        //Pick random word from AllWords based on difficulty, etc.
+        
+        //return secretWord;
+    } 
+    
+    private void hiddenSecretWord(){
+        
+        
+        //misses.replace(currentWord.indexOf("e"), currentWord.indexOf("e"), "e")
+        //return hiddenSecretWord;
+    }
+    
+    public boolean isCharInWord(String guess){
+        //return 
+        //currentWord.indexOf(guess);
+        //return chars in word
+    }
+    
+    private void wordGuess(){
+        
+        //return secretWord;
+    }
+    
+    private void hangingMan(){
+        
+        //return hangingMan;
+    }
+    
+    
+        
+    
+    
+}
